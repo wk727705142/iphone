@@ -1,0 +1,23 @@
+.header{
+    width:100%;
+    height:auto;
+    background:#ccc;
+    text-align:center;
+    line-height:30px;
+    padding-bottom:20px;
+}
+.Headportrait{
+    width:80%;
+    height:80px;
+    background:blue;
+    margin-left:10%;
+    margin-top:20px;
+}
+ul li{
+    line-height:3;
+    text-align:center;
+    border-top:solid 1px #ccc;
+}
+.my-content{
+    height:92%;
+}

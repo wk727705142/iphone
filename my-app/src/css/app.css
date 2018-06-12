@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    text-decoration: none;
+}
+html,body,#root,.wrap{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+.main{
+    height:100%;
+    position:relative;
+}
+.login,.my{
+    width:100%;
+    height:100%;
+}
+
+.active{
+    
+    opacity:1;
+    
+    
+}
+.alert{
+    transition:opacity 1s ease-out;
+    text-align:center;
+    height:30px;
+    margin:0 auto;
+    line-height:30px;
+    border-radius:5px;
+    background:skyblue;
+    color:#fff;
+    width:80%;
+    position:fixed;
+    top:4%;
+    left:50%;
+    margin-left:-40%;
+}
+.hidd{
+    opacity:0;
+}
+

@@ -1,0 +1,72 @@
+.rew_head{
+    height:44px;
+    background:#F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rew_head i{
+    padding:10px;  
+    color:#1ABC9C;
+}
+.rew_con{
+    flex: 1;
+    height:100%;
+    overflow: hidden; 
+}
+.rew_bot{
+    width:100%;
+    height:80px; 
+    justify-content: space-around; 
+    display: flex;  
+    background:#fff;
+}
+.rew_bot dl{
+    display:flex;
+    align-items: center;
+    height:100%;
+}
+.rew_bot dl dt{
+    width:50px;
+}
+.rew_bot dl dt i{
+    font-size:25px;
+}
+.rew_bot dd{
+    cursor: pointer;
+}
+.green{
+    color:#F04844;
+}
+.rew_bott{
+    height:100%;
+    margin-top:10px;
+}
+h4{
+    line-height:40px;
+    background:#fff;
+}
+.rew_l{
+    padding:10px;
+    background:#fff;
+}
+.rew_l dl{
+     display: flex;  
+     padding:5px; 
+     border-bottom:1px solid #ccc;
+}
+.rew_l dl dt img{
+    border-radius: 50%;
+    padding:8px;
+}
+.rew_l dl dd{
+    width:100%;
+    display: flex; 
+    justify-content: space-around;
+}
+.rew_l dl dd p{
+    line-height:30px;
+}
+.rew_right{
+    padding-left:10px;
+}
